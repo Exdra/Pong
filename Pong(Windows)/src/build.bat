@@ -1,0 +1,1 @@
+gcc Main.c -o ../bin/Pong.exe -O1 -Wall -std=c99 -Wno-missing-braces -I include/ -L ../libraries/ -lmsvcrt -lraylibdll -lOpenGL32 -lGdi32 -lWinMM -lkernel32 -lshell32 -lUser32 
