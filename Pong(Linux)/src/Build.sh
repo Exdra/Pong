@@ -1,0 +1,1 @@
+gcc Main.c -o ../bin/Pong.out -I ../include -L ../libraries -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
