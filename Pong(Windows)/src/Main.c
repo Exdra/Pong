@@ -6,16 +6,16 @@
 
 int main() {
     // window varibles
-    const int windowwidth = 640;
-    const int windowheight = 480;
+    const int windowwidth = 1280;
+    const int windowheight = 720;
 
     // the paddles
     Rectangle pad1 = { 44,44,16,96 };
     Rectangle pad2 = { 580,44,16,96 };
 
     // the speed of the paddles
-    float pad1speed = 11;
-    float pad2speed = 11;
+    float pad1speed = 12;
+    float pad2speed = 12;
 
     // screen borders
     Rectangle border1 = { -1,-1,641,1 };
@@ -56,7 +56,6 @@ int main() {
         {
             ballSpeed.y *= -1;
         }
-
 
         if (CheckCollisionCircleRec(ballPosition, ballRadius, pad1))
         {
